@@ -15,7 +15,7 @@ class Var(object):
     name = str(getenv('name', 'SUDIP_FILE_TO_LINK_BOT'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001787034706'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001763943446'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -37,7 +37,7 @@ class Var(object):
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://dahif89943:sudipsaha2006@cluster0.iscxsme.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'main_channel_bot_update'))
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001763943446")).split()))      
+    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001787034706")).split()))      
     SHORTLINK_URL = getenv('SHORTLINK_URL', 'mdisk.pro')
     SHORTLINK_API = getenv('SHORTLINK_API', 'ee2e50b000e88ab6549ce6ade5313149a9851577')
     TUTORIAL_URL = getenv('TUTORIAL_URL', 'https://t.me/main_channel_bot_update')
