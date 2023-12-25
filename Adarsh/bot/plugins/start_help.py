@@ -72,7 +72,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/greymatters_bots_discussion'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/main_channel_bot_update'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -130,8 +130,12 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/Rk_botowner")],
-                [InlineKeyboardButton("💥 Support Us", url="t.me/Rk_botz")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/SUDIPSAHA06")],
+                [InlineKeyboardButton("💥 Support Us", url="https://t.me/main_channel_bot_update")
+                [InlineKeyboardButton("🎬 Movie Group", url="https://t.me/Ott_Movie_Request_Group")
+
+               ],
+                ]
             ]
         )
     )
