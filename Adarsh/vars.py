@@ -38,6 +38,6 @@ class Var(object):
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://dahif89943:sudipsaha2006@cluster0.iscxsme.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'main_channel_bot_update'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001763943446")).split()))      
-    SHORTLINK_URL = getenv('SHORTLINK_URL', 'OmegaLinks.in')
+    SHORTLINK_URL = getenv('SHORTLINK_URL', 'mdisk.pro')
     SHORTLINK_API = getenv('SHORTLINK_API', 'ee2e50b000e88ab6549ce6ade5313149a9851577')
     TUTORIAL_URL = getenv('TUTORIAL_URL', 'https://t.me/main_channel_bot_update')
