@@ -131,11 +131,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/SUDIPSAHA06")],
-                [InlineKeyboardButton("💥 Support Us", url="https://t.me/main_channel_bot_update")
-                [InlineKeyboardButton("🎬 Movie Group", url="https://t.me/Ott_Movie_Request_Group")
-
-               ],
-                ]
+                [InlineKeyboardButton("💥 Support Us", url="https://t.me/+NAo_2MOcuoE4N2Q1")]
             ]
         )
     )
