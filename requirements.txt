@@ -1,5 +1,6 @@
-pyrogram<=2.0.33
-tgcrypto<=1.2.3
+pyrogram=2.0.106
+pyrofork==2.2.11
+tgcrypto=1.2.3
 aiohttp
 python-dotenv<=0.20.0
 motor
