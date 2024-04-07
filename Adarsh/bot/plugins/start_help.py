@@ -97,7 +97,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="<i>Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ FROM USING ᴍᴇ. Cᴏɴᴛᴀᴄᴛ ᴛʜᴇ Dᴇᴠᴇʟᴏᴘᴇʀ</i>",
+                    text="<i>Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ FROM USING ᴍᴇ. Cᴏɴᴛᴀᴄᴛ ᴛʜᴇ Bot Owner</i>",
                     
                     disable_web_page_preview=True
                 )
@@ -130,8 +130,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/SUDIPSAHA06")],
-                [InlineKeyboardButton("💥 Support Us", url="https://t.me/+NAo_2MOcuoE4N2Q1")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/DaddyCooL_KingDom")],
+                [InlineKeyboardButton("💥 Support Us", url="t.me/DaddyCooL_KingDom")]
             ]
         )
     )
